@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikas Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name"  style="font-size: larger;">Vikas sai kumar Balla</h1>
+
+          <!--<p class="title">Web developer</p>-->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">vikassaikumar8@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9182283502</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 21 , 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kandrikagudem, Eluru, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vikas-sai-kumar-9394ba234/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/vikassaikumar8" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <img src="assets/images/about.jpg" style="max-width: 300px; border-radius: 20px;">
+          <br>
+          <br>
+          <p>
+            Results-driven AI Engineer with a proven track record in creating, managing, and optimizing AI development
+            processes and infrastructure. Proficient in deep learning, computer vision, and data processing, with a strong
+            background in implementing and refining machine learning algorithms. Adept at transforming models into APIs
+            for seamless integration. Excellent communicator with a proactive approach and exceptional problem-solving
+            skills.
+
+          </p>
+
+          <p>
+            Highly motivated and detail-oriented professional experienced in designing and developing innovative solutions
+            across industries, leveraging expertise in Digital, Cloud, ERP Packages, and Analytics. Skilled in analyzing and
+            optimizing business and delivery processes to drive strategic client objectives, propelling organizations towards
+            a technology-driven future. Seeking opportunities as an Analyst or Associate Analyst to contribute to impactful
+            projects and drive continuous improvement while delivering exceptional results for clients.
+
+          </p>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Under Graduation</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Pursuing 7th semester of B-Tech from Aditya
+                college of Engineering with Artificial intelligence
+                and Machine learning and the aggregate till now is 7.81 CGPA
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary Education</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Completed higher secondary education in
+                Narayana college in year 2020 with 9.44 CGPA
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Matriculation</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Completed matriculation education in sri
+                somanatha green field public school in year 2018
+                with 81.8%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+        <section class="skill">
+
+          
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Problem Solving: Achieved a 5-star rating
+                in Python on HackerRank
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Strong organizational and time management skill
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Exceptional communication and
+                interpersonal skills
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Ability to adapt quickly to changing
+                project requirements and client needs.
+                Detail-oriented and able to handle
+                multiple tasks simultaneously
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill" style="margin-top: 50px;">
+
+          
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Technical Proficiency</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Experience with Deep Learning, Computer Vision, Image
+                Processing, and data processing. Highly contributing to
+                the implementation, refinement, and validation of
+                machine learning algorithms for products and
+                applications
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Experience in deep learning frameworks like PyTorch /
+                Tensorflow
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Great attention to detail Organizational skills with
+                distinctive problem-solving, an analytical mind, and a
+                proactive in nature Strong experience with Python, good
+                programming and problem-solving skills
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Understanding of SQL databases, ensuring efficient data storage, retrieval, and management.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Good knowledge on Data base Management systems ,
+                Data structures and Algorithms
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Excellent communication skills (both oral and written),
+                presentation skills
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill" style="margin-top: 50px;">
+
+          
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Hunting for Exoplanets with Machine Learning
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Sunspots prediction using Machine Learning
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                India's PV power potential Data Analysis
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                Predicting Stars , Galaxies , and  Quasars with Machine Learning
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              
+
+              <p class="timeline-text">
+                RoofTop Solar Panel Detection
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/HuntingForExoplanets.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hunting for Exoplanets with Machine Learning</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/SunSpotsPrediction.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sunspots prediction using Machine Learning</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/India'sPVPowerPotential.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">India's PV power potential Data Analysis</h3>
+
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PredictingStars,Galaxies.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predicting Stars , Galaxies , and Quasars with Machine Learning</h3>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/RoofTopSolar.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RoofTop Solar Panel Detection</h3>
+
+                
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/AWS-CloudFoundation.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title" style="font-size: large;">AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+
+                  
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/AWS-MachineLearning.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title" style="font-size: large;">AWS Academy Graduate - AWS Academy Machine Learning Foundations</h3>
+
+                  
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <div style="max-width:100%;overflow:hidden;color:red;width:1000px;height:500px;"><div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Kandrikagudem+,+Eluru&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a><style>#canvas-for-googlemap img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
